@@ -1270,6 +1270,7 @@ header .header-logo .woologo {
 }
 #header-menu-trigger.opaque .header-menu-text {
   background-color: #000000;
+  color: var(--principal);
 }
 #header-menu-trigger:hover, #header-menu-trigger:focus {
   color: #FFFFFF;
