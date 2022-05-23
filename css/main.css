@@ -2,7 +2,7 @@
 @import url("micons/micons.css");
 @import url("fonts.css");
 :root{
-  --principal:var(#f9a828);
+  --principal:#f9a828;
 }
 
 /* ===================================================================
