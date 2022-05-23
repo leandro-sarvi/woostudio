@@ -1113,7 +1113,7 @@ input::-moz-focus-inner {
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8 rem;
   line-height: 1.667;
-  color: rgba(242, 242, 242, 0.5);
+  color: var(--principal);
   text-transform: uppercase;
   letter-spacing: .3rem;
   margin-bottom: 1.2rem;
@@ -1887,7 +1887,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
 }
 #services .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+  color: var(--principal);
 }
 #services .section-intro h1 {
   color: #FFFFFF;
@@ -1908,7 +1908,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 0 50px;
 }
 #services .services-list .service-item p {
-  color: rgba(242, 242, 242, 0.5);
+  color: var(--principal);
 }
 #services .services-list .icon {
   display: inline-block;
@@ -1983,7 +1983,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background: #111111;
 }
 #portfolio .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+  color: var(--principal);
 }
 #portfolio .section-intro h1 {
   color: #FFFFFF;
@@ -2499,7 +2499,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: white;
 }
 #contact .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+  color: var(--principal);
 }
 #contact .section-intro p.lead {
   color: rgba(242, 242, 242, 0.4);
