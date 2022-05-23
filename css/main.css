@@ -2903,7 +2903,7 @@ footer h4.h05::after {
   line-height: 63px;
   text-align: center;
   background-color: #000000;
-  color: #888;
+  color: var(--principal);
   text-align: center;
   text-transform: uppercase;
   -moz-transition: all 0.3s ease-in-out;
