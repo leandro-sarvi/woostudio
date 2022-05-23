@@ -1350,7 +1350,7 @@ header .header-logo .woologo {
   color: white;
 }
 #menu-nav-wrap h3 {
-  color: white;
+  color: var(--principal);
   font-family: "montserrat-regular", sans-serif;
   font-size: 2rem;
   line-height: 1.5;
@@ -1478,7 +1478,7 @@ header .header-logo .woologo {
 #home {
   width: 100%;
   height: 100%;
-  background-color: #151515;
+  background-color: var(--principal);
   background-image: url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center 30%;
@@ -2918,7 +2918,6 @@ footer h4.h05::after {
 }
 #go-top a:visited {
   background: #000000;
-  color: #888;
 }
 #go-top a:hover, #go-top a:focus {
   background: #000000;
