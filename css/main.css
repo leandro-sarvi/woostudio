@@ -1488,7 +1488,7 @@ header .header-logo .woologo {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  min-height: 804px;
+  min-height: 100vh;
 }
 #home .overlay {
   position: absolute;
