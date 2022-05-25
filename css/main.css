@@ -1482,7 +1482,7 @@ header .header-logo .woologo {
   background-color: var(--secundario);
   background-image: url(../images/videoblocks-statue-of-spartan-warrior-with-dust-floating-around_bdlckumfw_thumbnail-full01-1.png);
   background-repeat: no-repeat;
-  background-position: center 30%;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
