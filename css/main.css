@@ -1761,6 +1761,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
   column-gap: 50px;
 }
+.about-flex img{
+border-radius: 100%;
+}
 .intro{
   display: flex;
   flex-direction: column;
