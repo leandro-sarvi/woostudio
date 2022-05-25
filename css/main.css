@@ -1756,8 +1756,19 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   min-height: 696px;
   text-align: center;
 }
+.about-flex{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
+  column-gap: 50px;
+}
+.intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 #about .about-wrap {
-  max-width: 850px;
+  max-width: 1200px;
 }
 #about h3 {
   font-family: "montserrat-bold", sans-serif;
@@ -1767,6 +1778,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
+  margin-bottom: 50px;
 }
 #about h3::before {
   display: block;
@@ -1778,10 +1790,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #about .lead {
   font-family: "librebaskerville-bold", serif;
-  font-size: 4rem;
+  font-size: 2.5rem;
   line-height: 1.8;
   color: var(--text-light);
-  margin-top: 6rem;
+  margin-top: 1rem;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1793,10 +1805,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     min-height: 636px;
   }
   #about .about-wrap {
-    max-width: 800px;
+    max-width: 900px;
   }
   #about .lead {
-    font-size: 3.8rem;
+    font-size: 2.5rem;
   }
 }
 @media only screen and (max-width: 900px) {
