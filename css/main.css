@@ -1236,6 +1236,7 @@ header .header-logo {
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
+
 header .header-logo .woologo {
   display: block;
   margin: 0;
@@ -1344,7 +1345,7 @@ header .header-logo .woologo {
   color: var(--principal);
   font-family: "montserrat-regular", sans-serif;
   font-size: 2rem;
-  line-height: 1.5;
+  
   margin-bottom: 1.5rem;
 }
 #menu-nav-wrap .nav-list {
@@ -1382,7 +1383,7 @@ header .header-logo .woologo {
   display: inline-block;
 }
 #menu-nav-wrap .header-social-list li a {
-  color: rgba(255, 255, 255, 0.15);
+  color: var(--text-light);
 }
 #menu-nav-wrap .header-social-list li a:hover, 
 #menu-nav-wrap .header-social-list li a:focus {
@@ -1869,7 +1870,6 @@ border-radius: 100%;
   min-height: 800px;
   position: relative;
   padding: 15rem 0 15rem;
-  color: rgba(255, 255, 255, 0.3);
 }
 #services .overlay {
   position: absolute;
