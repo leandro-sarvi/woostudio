@@ -1342,7 +1342,11 @@ header .header-logo .woologo {
   color: white;
 }
 #menu-nav-wrap h3 {
-  color: var(--principal);
+  background: linear-gradient(117deg,#FB5607, #FFBE0B, #FF006E, #8338EC, #3A86FF,#6699FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-repeat: no-repeat;
   font-family: "montserrat-regular", sans-serif;
   font-size: 2rem;
   
