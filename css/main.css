@@ -1524,10 +1524,7 @@ header .header-logo .woologo {
   font-family: "montserrat-bold", serif;
   font-size: 7rem;
   line-height: 1.133;
-  background: linear-gradient(117deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  color: var(--principal);
 }
 .home-content-tablecell .more {
   margin: 4.8rem 0 0 0;
@@ -1864,8 +1861,7 @@ border-radius: 100%;
  *
  * ------------------------------------------------------------------- */
 #services {
-  background-color: #19191b;
-  background-image: url(../images/services-bg.jpg);
+  background: var(--secundario);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
