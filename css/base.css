@@ -1,5 +1,4 @@
 html {
-  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -677,13 +676,6 @@ textarea {
     margin-right: 0;
   }
 }
-/* ===================================================================
- *  04. MISC  - (_grid.scss)
- *
- * ------------------------------------------------------------------- */
- 
-/* Clearing - (http://nicolasgallagher.com/micro-clearfix-hack/
- */
 .group:before, .group:after {
   content: "";
   display: table;
