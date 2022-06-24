@@ -411,7 +411,7 @@ textarea {
   }
 
   [class*="col-"] {
-    padding: 0 18px;
+    padding: 0 120px;
   }
 }
 /* ------------------------------------------------------------------- 
@@ -420,7 +420,7 @@ textarea {
 @media screen and (max-width: 768px) {
   .row {
     width: auto;
-    padding-left: 30px;
+    padding-left: 60px;
     padding-right: 30px;
   }
 
@@ -432,7 +432,7 @@ textarea {
   }
 
   [class*="col-"] {
-    padding: 0 15px;
+    padding: 0 115px;
   }
 
   .tab-1-4 {

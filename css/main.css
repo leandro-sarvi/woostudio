@@ -83,7 +83,7 @@ a:hover, a:focus {
 h1, h2, h3, h4, h5, h6,
 .h01, .h02, .h03, .h04, .h05, .h06 {
   font-family: "montserrat-bold", sans-serif;
-  color: #151515;
+  color: #fff;
   font-style: normal;
   text-rendering: optimizeLegibility;
   margin-bottom: 2.1rem;
@@ -138,7 +138,7 @@ h6, .h06 {
   letter-spacing: .2rem;
 }
 span{
-  background: linear-gradient(117deg,#FB5607, #FFBE0B, #FF006E, #8338EC, #3A86FF,#6699FF);
+  background: linear-gradient(117deg, #ff0040, #00ecfa, #8338EC);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -152,7 +152,7 @@ p.lead {
   font-family: "montserrat-bold", sans-serif;
   font-size: 2rem;
   line-height: 1.8;
-  color: #4f4f4f;
+  color: #fff;
   margin-bottom: 3.6rem;
 }
 @media only screen and (max-width: 768px) {
@@ -1342,7 +1342,7 @@ header .header-logo .woologo {
   color: white;
 }
 #menu-nav-wrap h3 {
-  background: linear-gradient(117deg,#FB5607, #FFBE0B, #FF006E, #8338EC, #3A86FF,#6699FF);
+  background: linear-gradient(117deg, #FF006E, #3A86FF, #8338EC);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1474,7 +1474,7 @@ header .header-logo .woologo {
   width: 100%;
   height: 100%;
   background-color: var(--secundario);
-  background-image: url(../images/videoblocks-statue-of-spartan-warrior-with-dust-floating-around_bdlckumfw_thumbnail-full01-1.png);
+  background-image: url(../images/oooscillate.webp);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -1499,7 +1499,7 @@ header .header-logo .woologo {
   height: 100%;
   display: table;
   position: relative;
-  text-align: center;
+  text-align: start;
 }
 
 .home-content-tablecell {
@@ -1744,6 +1744,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   position: relative;
   padding: 4.2rem 0 12rem;
   background-color: var(--secundario);
+  background-image: url(/images/ssscribble.webp);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 696px;
   text-align: center;
 }
@@ -1785,7 +1789,7 @@ border-radius: 100%;
 #about .lead {
   font-size: 2.5rem;
   line-height: 1.8;
-  color: var(--text-light);
+  color: #fff;
   margin-top: 1rem;
 }
 
@@ -2505,7 +2509,7 @@ border-radius: 100%;
   color: var(--principal);
 }
 #contact .section-intro p.lead {
-  color: rgba(242, 242, 242, 0.4);
+  color: #fff;
 }
 
 .contact-content {
