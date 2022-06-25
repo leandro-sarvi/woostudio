@@ -1476,7 +1476,7 @@ header .header-logo .woologo {
   background-color: var(--secundario);
   background-image: url(../images/oooscillate.webp);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
