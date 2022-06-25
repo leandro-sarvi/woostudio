@@ -4,7 +4,6 @@
   --principal:white;
   --secundario:#111111;
   --background-highlight-highlight: #393941;
-  --text-light: #8a8f98;
   --gradient-principal:linear-gradient(135deg, #CB5EEE 0%, #4BE1EC 100%);
 }
 
@@ -1368,7 +1367,7 @@ header .header-logo .woologo {
   border-top: 1px dotted rgba(255, 255, 255, 0.03);
 }
 #menu-nav-wrap .nav-list li a {
-  color: var(--text-light);
+  color: #fff;
   display: block;
 }
 #menu-nav-wrap .nav-list li a:hover, 
@@ -1376,6 +1375,7 @@ header .header-logo .woologo {
   color: white;
 }
 #menu-nav-wrap .header-social-list {
+  color: #fff;
   list-style: none;
   display: inline-block;
   margin: 0;
@@ -1477,8 +1477,6 @@ header .header-logo .woologo {
   background-image: url(../images/oooscillate.webp);
   background-repeat: no-repeat;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
